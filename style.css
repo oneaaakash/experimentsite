@@ -1,0 +1,152 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	font-size:24px;
+	color:#f9faf8;
+	background-color:#1f2937;
+	height:100px;
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+}
+ul{
+	display: flex;
+	list-style-type: none;
+	font-size:18px;
+	color:#e5e7eb;
+	justify-content:space-between;
+}
+ul li{
+justify-content: space-between;
+	
+	margin-left:30px;
+}
+
+main.firstsection{
+	background-color:#1f2937;
+	color:#f9faf8;
+	display:flex;
+	border:1px solid #000;
+	height:400px;
+	align-items: center;
+	justify-content: space-around;
+}
+.hero-img{
+	width: 270px;
+	height:270px;
+}
+.content-left{
+	color:#f9faf8;
+	width:30%;
+	displa:flex;
+	justify-content:space-around;
+}
+main h1{
+	font-size:48px extra-bold;
+	color:#f9faf8;
+	text-transorm: uppercase;
+}
+main p{
+	font-size:18px;
+	font-weight:400;
+	color:#e5e7eb;
+	line-height:31.5px;
+	margin:30px 0;
+}
+.cta{
+	padding:10px 35px;
+	background: #3882f6;
+	color:#e5e7eb;
+	outline:none;
+	border:none;
+	font-weight:600;
+	border-radius:10px;
+}
+.secondsection{
+	height:300px;
+}
+.fourbox{
+	display:flex;
+	justify-content:center;
+}
+.randominfo{
+	font-size:30px;
+	font-weight:800;
+	line-height:31.5px;
+	margin:30px 0;
+	color:#1f2937;
+	text-align:center;
+}
+figure{
+	display:inline-block;
+	margin-left:15px;
+	border: 4px solid #3882f6;
+	outline:none;
+	border-radius:10px;
+	padding: 10px;
+}
+.thirdsection {
+	display:flex;
+	height:300px;
+	background-color:#e5e7eb;
+	color:#1f2937;
+	font-size:36px;
+	font-style:italic;
+	padding:20px;
+	align-items:center;
+	flex-direction:column;
+}
+h4{
+	font-style:normal;
+	font-weight:800;
+	font-size:30px;
+}
+/*
+.fourthsection{
+	display:flexbox;
+	height:200px;
+	background-color:#3882f6;
+	margin:60px;
+	border-radius: 10px;
+	flex-direction:row;
+}*/
+.fourthsection {
+  display: flex;
+  background: #3882f6;
+	border-radius: 10px;
+  margin:50px;
+  height: 100px;
+  flex: 1 1 0%;
+}
+.cta.change{
+	font-weight:800;
+	font-size:30px;
+}
+.two{
+	display:flex;
+	justify-content:space-around;
+	align-content:space-around;
+	margin-right:90px;
+}
+.one{
+	display:flex;
+	flex-grow:2;
+	color:#f9faf8;
+	flex-direction:column;
+	align-items:flex-start;
+	margin-left:90px;
+	justify-content:center;
+}
+footer{
+	height:60px;
+	background-color:#1f2937;
+	color:#e5e7eb;
+	padding:20px;
+	text-align:center;
+}
